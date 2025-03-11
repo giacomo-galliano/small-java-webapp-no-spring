@@ -1,0 +1,11 @@
+POST http://localhost:8080/invoices?user_id=freddieFox&amount=50
+Accept: application/json
+
+###
+
+POST http://localhost:8080/invoices?user_id=markJames&amount=89
+Accept: application/json
+###
+
+GET http://localhost:8080/invoices
+Accept: application/json
